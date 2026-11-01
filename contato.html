@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- MENU DE NAVEGAÇÃO -->
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTEÚDO DA PÁGINA DE CONTATO -->
+    <main>
+        <h1>Entre em Contato</h1>
+        <p>Sinta-se à vontade para enviar uma mensagem ou se conectar comigo pelas redes sociais!</p>
+
+        <!-- FORMULÁRIO DE CONTATO -->
+        <form action="https://formspree.io/f/xzeejlqj" method="POST" class="formulario-contato">
+            <div class="campo">
+                <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+            </div>
+
+            <div class="campo">
+                <label for="email">Seu E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+            </div>
+
+            <div class="campo">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Enviar Mensagem</button>
+        </form>
+
+        <h2>Outras Formas de Contato</h2>
+        <ul>
+            <li><strong>E-mail:</strong> ariane.cristina14@unifesp.br</li>
+            <li><strong>LinkedIn:</strong> <a href="https://linkedin.com" target="_blank">www.linkedin.com/in/ariane-cristina-de-oliveira-lima-b4451a1b1</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/arianecristina14-hue" target="_blank">github.com/seu-usuario</a></li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido por Ariane Lima</p>
+    </footer>
+
+</body>
+</html>

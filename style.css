@@ -1,0 +1,124 @@
+/* ==========================================
+   1. REGRAS GERAIS E CORPO DA PÁGINA
+   ========================================== */
+* {
+    box-sizing: border-box; /* Facilita o cálculo de tamanhos e margens */
+}
+
+body {
+    margin: 50;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(139, 142, 190); /* Cor de fundo suave da página */
+    color: #333333;           /* Cor padrão dos textos */
+    line-height: 1.6;          /* Espaçamento entre as linhas de texto */
+}
+
+/* ==========================================
+   2. CABEÇALHO E MENU DE NAVEGAÇÃO
+   ========================================== */
+header {
+    background-color: #1a1a1a;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: #fcfafc;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #0066cc;
+}
+
+/* ==========================================
+   3. CONTEÚDO PRINCIPAL (<main>)
+   ========================================== */
+main {
+    max-width: 900px;         /* Limita a largura para o texto não ficar espalhado */
+    margin: 40px auto;        /* Centraliza o bloco na tela */
+    padding: 30px;
+    background-color: #ffffff;/* Fundo branco para a caixa de conteúdo */
+    border-radius: 8px;       /* Bordas levemente arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Sombra suave */
+}
+
+/* Títulos */
+h1 {
+    color: #0066cc;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #222222;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+/* Parágrafos e listas */
+p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* ==========================================
+   4. ESTILO DE BOTÕES NO CONTEÚDO
+   ========================================== */
+.btn {
+    display: inline-block;
+    background-color: #0066cc;
+    color: #f9fdff;
+    padding: 20px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 30px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #004999;
+}
+
+/* ==========================================
+   5. RODAPÉ DA PÁGINA (OPCIONAL)
+   ========================================== */
+footer {
+    text-align: center;
+    padding: 40px;
+    color: #777777;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
+.foto-perfil {
+    display: block;
+    width: 500px;
+    max-width: 90%;
+    height: auto;
+    margin: 64px auto 0;
+}
